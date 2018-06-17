@@ -11,7 +11,7 @@ console.log("listening on port " + PORT);
 
 //setup the express app to handle data parsing
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: true }))
  
 // parse application/json
 app.use(bodyParser.json())
