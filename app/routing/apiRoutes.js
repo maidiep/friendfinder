@@ -15,26 +15,26 @@ module.exports = function(app) {
 
     //parse user's POST
     var userData = req.body;
-    var userScore = userData.score;
+    var userScore = userData.scores;
 
     console.log(userScore);
 
     var totalDiff = 0 ;
 
-    // loop through bands
+    // loop through friends
     for(var i = 0; i < friends.length; i++) {
         console.log(friends[i]);
         totalDiff = 0;
 
-        // loop through scores of each band
-        for(var j = 0; j < friends[i].score[j]; j++) {
+        // loop through scores of each friend
+        for(var j = 0; j < friends[i].scores[j]; j++) {
 
             // calculate diff and sum the difference
-            totalDiff += math.abs(parseInt(userScore[j]) - pareseInt(friends[i].score[j]));
+            totalDiff += Math.abs(parseInt(userScore[j]) - parseInt(friends[i].scores[j]));
 
             if(totalDiff <= bestMatch.friendDiff) {
 
-                // reset bestMatch to new band
+                // reset bestMatch to new friend
                 bestMatch.name = friends[i].name;
                 bestMatch.photo = friends[i].photo;
                 bestMatch.friendDiff = totalDiff;
