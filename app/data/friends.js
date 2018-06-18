@@ -1,7 +1,7 @@
-var bands = [
+var friends = [
     {
-    name: "Color Me Bad",
-    photo: "https://en.wikipedia.org/wiki/C.M.B.#/media/File:C.M.B._(Color_Me_Badd_album_-_cover_art).jpg",
+    name: "Joey",
+    photo: "https://cdn.pixabay.com/photo/2018/04/27/03/50/portrait-3353699_1280.jpg",
     scores:[
         "5",
         "1",
@@ -17,8 +17,8 @@ var bands = [
     },
 
     {
-    name: "Boys II Men",
-    photo: "https://en.wikipedia.org/wiki/Full_Circle_(Boyz_II_Men_album)#/media/File:B2m-fullcircle.jpg",
+    name: "Jade",
+    photo: "https://cdn.pixabay.com/photo/2018/01/15/07/52/woman-3083396_1280.jpg",
     scores:[
         "3",
         "5",
@@ -34,8 +34,8 @@ var bands = [
     },
 
     {
-        name: "New Kids on the Block",
-        photo: "https://en.wikipedia.org/wiki/Step_by_Step_(New_Kids_on_the_Block_album)#/media/File:Stepbystep_album_cover.jpg",
+        name: "Danny",
+        photo: "https://cdn.pixabay.com/photo/2015/09/08/17/35/man-930397_1280.jpg",
         scores:[
             "5",
             "1",
@@ -51,8 +51,8 @@ var bands = [
         }, 
 
         {
-            name: "N'Sync",
-            photo: "https://en.wikipedia.org/wiki/Greatest_Hits_(NSYNC_album)#/media/File:Dgh.JPG",
+            name: "Danica",
+            photo: "https://cdn.pixabay.com/photo/2016/11/29/13/14/attractive-1869761_1280.jpg",
             scores:[
                 "3",
                 "2",
@@ -68,8 +68,8 @@ var bands = [
             }, 
             
         {
-            name: "One Direction",
-            photo: "https://vignette.wikia.nocookie.net/onedirection/images/e/e4/1D-6.jpg/revision/latest?cb=20151226141346",
+            name: "Donnie",
+            photo: "https://cdn.pixabay.com/photo/2016/01/19/18/04/man-1150058_1280.jpg",
             scores:[
                 "4",
                 "3",
@@ -85,5 +85,5 @@ var bands = [
             }    
 ];
 
-module.exports = bands;
+module.exports = friends
 
