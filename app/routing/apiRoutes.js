@@ -16,14 +16,15 @@ module.exports = function(app) {
     //parse user's POST
     var userData = req.body;
     var userScore = userData.scores;
-
+    
+    console.log(userData);
     console.log(userScore);
 
     var totalDiff = 0 ;
 
     // loop through friends
     for(var i = 0; i < friends.length; i++) {
-        console.log(friends[i]);
+        // console.log(friends[i]);
         totalDiff = 0;
 
         // loop through scores of each friend
