@@ -33,14 +33,15 @@ module.exports = function(app) {
             // calculate diff and sum the difference
             totalDiff += Math.abs(parseInt(userScore[j]) - parseInt(friends[i].scores[j]));
 
-            if(totalDiff <= bestMatch.friendDiff) {
-
-                // reset bestMatch to new friend
-                bestMatch.name = friends[i].name;
-                bestMatch.photo = friends[i].photo;
-                bestMatch.friendDiff = totalDiff;
-            }
+            
         }
+        if(totalDiff <= bestMatch.friendDiff) {
+
+          // reset bestMatch to new friend
+          bestMatch.name = friends[i].name;
+          bestMatch.photo = friends[i].photo;
+          bestMatch.friendDiff = totalDiff;
+      }
     }
 
     // save data to database
