@@ -1,7 +1,7 @@
 var friends = [
     {
     name: "Joey",
-    photo: "https://cdn.pixabay.com/photo/2018/04/27/03/50/portrait-3353699_1280.jpg",
+    photo: "https://www.maxpixel.net/static/photo/2x/Man-Face-Eyes-Portrait-2287071.jpg",
     scores:[
         "5",
         "1",
@@ -18,7 +18,7 @@ var friends = [
 
     {
     name: "Jade",
-    photo: "https://cdn.pixabay.com/photo/2018/01/15/07/52/woman-3083396_1280.jpg",
+    photo: "https://pixnio.com/free-images/2017/11/30/2017-11-30-18-05-29-1200x801.jpg",
     scores:[
         "3",
         "5",
@@ -35,7 +35,7 @@ var friends = [
 
     {
         name: "Danny",
-        photo: "https://cdn.pixabay.com/photo/2015/09/08/17/35/man-930397_1280.jpg",
+        photo: "https://get.pxhere.com/photo/man-person-people-portrait-blue-smiling-old-man-senior-citizen-family-glasses-elderly-grandparent-portrait-photography-vision-care-aged-man-1365932.jpg",
         scores:[
             "5",
             "1",
@@ -52,7 +52,7 @@ var friends = [
 
         {
             name: "Danica",
-            photo: "https://cdn.pixabay.com/photo/2016/11/29/13/14/attractive-1869761_1280.jpg",
+            photo: "https://get.pxhere.com/photo/woman-photography-photo-singer-fur-portrait-model-canon-studio-fashion-material-hood-close-up-human-body-textile-photos-face-nose-eye-head-skin-beauty-shot-headshot-organ-photo-shoot-portrait-photography-supermodel-fur-clothing-748745.jpg",
             scores:[
                 "3",
                 "2",
@@ -69,7 +69,7 @@ var friends = [
             
         {
             name: "Donnie",
-            photo: "https://cdn.pixabay.com/photo/2016/01/19/18/04/man-1150058_1280.jpg",
+            photo: "https://get.pxhere.com/photo/man-person-people-woman-male-portrait-child-smile-senior-citizen-family-infant-toddler-auodyssey-interaction-grandparent-portrait-photography-353254.jpg",
             scores:[
                 "4",
                 "3",
